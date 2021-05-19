@@ -8,23 +8,11 @@ Aplicación hecha en Angular con el curso de [Udemy](https://www.udemy.com/cours
 
 Hay que instalar [Node.js](https://nodejs.org/es/) con [npm](https://www.npmjs.com/),[json-server](https://www.npmjs.com/package/json-server) como base de datos local y el [layout](https://www.npmjs.com/package/@angular/flex-layout) que utilizaremos.
 
-_Para instalar Material tenemos que ejecutar el siguiente comando:_
-
-```
-ng add @angular/material
-```
-
-_Para instalar el layout que utiliza la aplicación:_
-
-```
-npm i @angular/flex-layout
-```
-
-_ y por último para instalar el servidor:_
-
+_Para instalar la base de datos tenemos que ejecutar el siguiente comando:_
 ```
 npm install -g json-server
 ```
+El resto de depencias se instalan con npm en la seccion de instalación.
 
 ### Instalación 🔧
 
@@ -41,7 +29,7 @@ _Una vez descargada la carpeta **appHeroes** tenemos que ir al directorio de est
 npm install
 ```
 
-_Y por último para lanzar el proyecto tenemos que usar el comando:_
+_el cual nos descargará todas las dependecias del proyecto que no tuvieramos instaladas y por último para lanzar el proyecto tenemos que usar el comando:_
 
 ```
 ng serve -o
